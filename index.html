@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="hang.css" />
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner-whiteContainer">
+        <!-- hangman picture plus heading -->
+        <div class="hangman-container-grid">
+          <div class="picture">
+            <img src="images/hangman-0.svg" />
+          </div>
+          <h1>HANGMAN GAME</h1>
+        </div>
+        <!-- text content -->
+        <div class="text-container-grid">
+          <div class="word-dashes">
+
+          </div>
+          <div class="hint">
+            <strong>Hint:</strong>
+            <span id="hintSpan">
+              Colorful light display in sky during rain.</span>
+            
+          </div>
+          <div class="gauss-tries">
+            Incorrect guesses: <span><span id="gaussSpan">0</span>/6</span>
+          </div>
+          <div class="btn-container">
+            <button>A</button>
+            <button>B</button>
+            <button>C</button>
+            <button>D</button>
+            <button>E</button>
+            <button>F</button>
+            <button>G</button>
+            <button>H</button>
+            <button>I</button>
+            <button>J</button>
+            <button>K</button>
+            <button>L</button>
+            <button>M</button>
+            <button>N</button>
+            <button>O</button>
+            <button>P</button>
+            <button>Q</button>
+            <button>R</button>
+            <button>S</button>
+            <button>T</button>
+            <button>U</button>
+            <button>V</button>
+            <button>W</button>
+            <button>X</button>
+            <button>Y</button>
+            <button>Z</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="game-end-popup-backside-dark noneDisplay">
+        <div class="after-game-white-box">
+           <img src="images/lost.gif" id="popupImg">
+           <h2 id="popupHeading"></h2>
+           <p id="popupPara"></p>
+           <button id="play-again">Play Again</button>
+        </div>
+    </div>
+
+    <script src="word.js"></script>
+    <script src="hang.js"></script>
+  </body>
+</html>
