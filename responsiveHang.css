@@ -1,0 +1,376 @@
+@media screen and (max-width: 360.88px) {
+  .inner-whiteContainer {
+    height: 98vh;
+    width: 96vw;
+    gap: 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+  }
+  .hangman-container-grid {
+    height: 30%;
+    width: 100%;
+    flex-direction: column-reverse;
+    justify-content: start;
+    gap: 0px;
+    padding-left: 0px;
+  }
+  .picture img {
+    scale: 0.3;
+    margin-top: -80px;
+  }
+  .hangman-container-grid h1 {
+    margin-top: 2px;
+    font-size: 30px;
+  }
+  .text-container-grid {
+    width: 100%;
+  }
+  .text-container-grid .word-dashes {
+    margin-top: 0.1rem;
+    font-size: 30px;
+    width: 100%;
+  }
+  .text-container-grid .word-dashes span {
+    margin-left: 4px;
+  }
+  .text-container-grid .hint {
+    margin-top: 1rem;
+    font-size: 14px;
+  }
+  .text-container-grid .gauss-tries {
+    margin-top: 0.5rem;
+    font-size: 16px;
+  }
+  .text-container-grid .gauss-tries span {
+    font-size: 18px;
+  }
+  .text-container-grid .btn-container {
+    margin-top: 0.5rem;
+    grid-template-columns: repeat(7, auto);
+    padding: 0 2px;
+    gap: 6px;
+  }
+  .btn-container button {
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+  }
+  /* after game over code */
+  .after-game-white-box {
+    height: 330px;
+    width: 310px;
+  }
+  .after-game-white-box img {
+    width: 150px;
+    margin-top: 10px;
+  }
+  .after-game-white-box h2 {
+    margin-top: 10px;
+    font-size: 25px;
+  }
+  .after-game-white-box p {
+    margin-top: 16px;
+    font-size: 20px;
+  }
+  .after-game-white-box #play-again {
+    padding: 15px 30px;
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 361px) and (max-width: 440.8px) {
+  .inner-whiteContainer {
+    height: 98vh;
+    width: 96vw;
+    gap: 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+  }
+  .hangman-container-grid {
+    height: 45%;
+    width: 100%;
+    flex-direction: column-reverse;
+    justify-content: start;
+    gap: 2px;
+    padding-left: 0px;
+  }
+  .picture img {
+    scale: 0.5;
+    margin-top: -60px;
+  }
+  .hangman-container-grid h1 {
+    margin-top: 2px;
+    font-size: 32px;
+  }
+  .text-container-grid {
+    width: 100%;
+  }
+  .text-container-grid .word-dashes {
+    margin-top: -1.5rem;
+    font-size: 30px;
+    width: 100%;
+  }
+  .text-container-grid .word-dashes span {
+    margin-left: 6px;
+  }
+  .text-container-grid .hint {
+    margin-top: 1rem;
+    font-size: 15px;
+  }
+  .text-container-grid .gauss-tries {
+    margin-top: 1rem;
+    font-size: 17px;
+  }
+  .text-container-grid .gauss-tries span {
+    font-size: 20px;
+  }
+  .text-container-grid .btn-container {
+    margin-top: 1rem;
+    grid-template-columns: repeat(7, auto);
+    padding: 0 2px;
+    gap: 6px;
+  }
+  .btn-container button {
+    height: 40px;
+    width: 40px;
+    font-size: 24px;
+  }
+  /* after game over code */
+  .after-game-white-box {
+    height: 390px;
+    width: 350px;
+  }
+  .after-game-white-box img {
+    width: 180px;
+    margin-top: 10px;
+  }
+  .after-game-white-box h2 {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  .after-game-white-box p {
+    margin-top: 18px;
+    font-size: 22px;
+  }
+  .after-game-white-box #play-again {
+    padding: 15px 30px;
+    margin-top: 20px;
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 441px) and (max-width: 600.8px) {
+  .inner-whiteContainer {
+    width: 96vw;
+    height: 98vh;
+    gap: 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+  }
+  .hangman-container-grid {
+    height: 40%;
+    width: 100%;
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 16px;
+    padding-left: 0px;
+  }
+  .picture img {
+    scale: 1;
+  }
+  .hangman-container-grid h1 {
+    margin-top: 10px;
+    font-size: 37px;
+  }
+  .text-container-grid {
+    width: 100%;
+  }
+  .text-container-grid .word-dashes {
+    margin-top: 0.5rem;
+    font-size: 30px;
+    width: 100%;
+  }
+  .text-container-grid .word-dashes span {
+    margin-left: 8px;
+  }
+  .text-container-grid .hint {
+    margin-top: 1.5rem;
+    font-size: 16px;
+  }
+  .text-container-grid .gauss-tries {
+    margin-top: 1rem;
+    font-size: 18px;
+  }
+  .text-container-grid .gauss-tries span {
+    font-size: 20px;
+  }
+  .text-container-grid .btn-container {
+    margin-top: 2rem;
+    grid-template-columns: repeat(6, auto);
+    padding: 0 6px;
+    gap: 6px;
+  }
+  .btn-container button {
+    height: 56px;
+    width: 56px;
+    font-size: 20px;
+  }
+    /* after game over code */
+    .after-game-white-box {
+      height: 450px;
+      width: 400px;
+    }
+    .after-game-white-box img {
+      width: 200px;
+      margin-top: 10px;
+    }
+    .after-game-white-box h2 {
+      margin-top: 10px;
+      font-size: 30px;
+    }
+    .after-game-white-box p {
+      margin-top: 18px;
+      font-size: 22px;
+    }
+    .after-game-white-box #play-again {
+      padding: 15px 30px;
+      margin-top: 20px;
+      font-size: 1.1rem;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 1250.8px) {
+  .inner-whiteContainer {
+    width: 90vw;
+    height: 94vh;
+    gap: 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+  }
+  .hangman-container-grid {
+    height: 40%;
+    width: 100%;
+    flex-direction: column-reverse;
+    justify-content: start;
+    gap: 8px;
+    padding-left: 0px;
+  }
+  .picture img {
+    scale: 0.7;
+    margin-top: -40px;
+  }
+  .hangman-container-grid h1 {
+    margin-top: 2px;
+    font-size: 33px;
+  }
+  .text-container-grid {
+    width: 100%;
+  }
+  .text-container-grid .word-dashes {
+    margin-top: 0.2rem;
+    font-size: 30px;
+    width: 100%;
+  }
+  .text-container-grid .word-dashes span {
+    margin-left: 8px;
+  }
+  .text-container-grid .hint {
+    margin-top: 0.3rem;
+    font-size: 16px;
+  }
+  .text-container-grid .gauss-tries {
+    margin-top: 0.4rem;
+    font-size: 18px;
+  }
+  .text-container-grid .gauss-tries span {
+    font-size: 20px;
+  }
+  .text-container-grid .btn-container {
+    margin-top: 1rem;
+    grid-template-columns: repeat(7, auto);
+    padding: 0 6px;
+    gap: 6px;
+  }
+  .btn-container button {
+    height: 60px;
+    width: 60px;
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024.8px) {
+  .text-container-grid .btn-container {
+    margin-top: 1.7rem;
+    grid-template-columns: repeat(9, auto);
+    padding: 0 10px;
+    gap: 8px;
+  }
+  .btn-container button {
+    height: 65px;
+    width: 65px;
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1250.8px) {
+  .text-container-grid .btn-container {
+    margin-top: 0.5rem;
+    grid-template-columns: repeat(9, auto);
+    padding: 0 40px;
+    gap: 10px;
+  }
+  .btn-container button {
+    height: 70px;
+    width: 70px;
+    font-size: 26px;
+  }
+}
+
+@media screen and (min-width: 1251px) and (max-width: 1660.8px) {
+  .inner-whiteContainer {
+    gap: 5px;
+  }
+  /* HANGMAN */
+  .hangman-container-grid {
+    width: 50%;
+    gap: 80px;
+    justify-content: start;
+    flex-direction: column-reverse;
+    padding-left: 4px;
+  }
+  .picture img {
+    scale: 1.2;
+    margin-left: -90px;
+  }
+  .hangman-container-grid h1 {
+    font-size: 40px;
+    margin-top: 20px;
+  }
+  .text-container-grid .word-dashes {
+    margin-top: 8rem;
+  }
+  .text-container-grid .word-dashes span {
+    margin-left: 10px;
+  }
+  .text-container-grid .hint {
+    margin-top: 3rem;
+  }
+  .text-container-grid .gauss-tries {
+    margin-top: 2rem;
+  }
+  .text-container-grid .btn-container {
+    margin-top: 5rem;
+    grid-template-columns: repeat(9, 1fr);
+    padding: 0 2rem;
+    gap: 16px;
+    position: absolute;
+    bottom: 14%;
+    left: 32%;
+  }
+  .btn-container button {
+    height: 60px;
+    width: 60px;
+    font-size: 24px;
+  }
+}

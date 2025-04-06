@@ -6,7 +6,7 @@
 }
 body {
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .container {
   height: 100vh;
@@ -15,7 +15,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
 }
 /* WHITE BOX */
 .inner-whiteContainer {
